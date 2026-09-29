@@ -5,7 +5,7 @@
 </style></head><body><div id="app" class="app"></div><div id="portal"></div>
 <script>
 (()=>{'use strict';
-const STORE='ocr-coach-v1',WEEK=7*864e5; const $=s=>document.querySelector(s);
+const STORE='ocr-coach-v1-beta06-preview',WEEK=7*864e5; const $=s=>document.querySelector(s);
 const glyph={run:'↗',strength:'◆',grip:'⌁',recovery:'☾',other:'✦',event:'▣'};
 const typeText={run:'Laufen',strength:'Kraft',grip:'OCR & Grip',recovery:'Erholung',other:'Zusatzaktivität',event:'Termin'};
 const defaults={name:'',distance:'medium',fitness:'intermediate',raceDate:'',minutes:300,days:[1,2,4,6],equipment:['bodyweight','hills'],theme:'dark',weeks:[],activities:[],events:[],history:[],createdAt:'',runWeekKm:'',longestKm:'',verticalWeek:'',ocrExperience:'first',weakness:'grip',priority:'balanced',raceName:'',raceKm:'',raceHm:'',raceObstacles:'',gripSeconds:'',trainingYears:'',trainingEnvironment:'',thresholdHr:'',maxHr:'',thresholdPaceSec:'',vo2max:'',recent5kSec:'',recent10kSec:'',recentLongMinutes:'',recentLongestHm:'',recentTrainingMinutes:'',daysSinceRace:'',runSessionsPerWeek:'',terrainAccess:'',requestedFocus:'',dataSource:'manual',trainingReady:null,dayMinutes:{},aiSource:false,aiInfo:null,needsAIUpdate:false,version:1};
